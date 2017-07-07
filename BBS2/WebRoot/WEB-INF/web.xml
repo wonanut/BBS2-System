@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.bbs.servlet.client.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.bbs.servlet.client.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>ChangeUser</servlet-name>
+    <servlet-class>com.bbs.servlet.admin.ChangeUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>Release</servlet-name>
+    <servlet-class>com.bbs.servlet.client.Release</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>NewComment</servlet-name>
+    <servlet-class>com.bbs.servlet.client.NewComment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>MpSub</servlet-name>
+    <servlet-class>com.bbs.servlet.client.MpSub</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>UUpdate</servlet-name>
+    <servlet-class>com.bbs.servlet.client.UUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>AUpdate</servlet-name>
+    <servlet-class>com.bbs.servlet.admin.AUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>ALogin</servlet-name>
+    <servlet-class>com.bbs.servlet.admin.ALogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>listproductServlet</description>
+    <display-name>listproductServlet</display-name>
+    <servlet-name>ChangeUImg</servlet-name>
+    <servlet-class>com.bbs.servlet.client.ChangeUImg</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUser</servlet-name>
+    <url-pattern>/ChangeUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Release</servlet-name>
+    <url-pattern>/Release</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewComment</servlet-name>
+    <url-pattern>/NewComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MpSub</servlet-name>
+    <url-pattern>/MpSub</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UUpdate</servlet-name>
+    <url-pattern>/UUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AUpdate</servlet-name>
+    <url-pattern>/AUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ALogin</servlet-name>
+    <url-pattern>/ALogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUImg</servlet-name>
+    <url-pattern>/ChangeUImg</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>client/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
